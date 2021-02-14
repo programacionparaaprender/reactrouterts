@@ -99,3 +99,17 @@ const App = () => {
     </Provider>
   );
 };
+
+### Publicar proyecto en github
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+https://www.youtube.com/watch?v=OUsC13AEiUQ&t=36s
+
+npm install --save gh-pages
+package.json
+"homepage": "https://programacionparaaprender.github.io/reactrouterts",
+  
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
+si ocurre un error
+https://stackoverflow.com/questions/63964575/fatal-a-branch-named-gh-pages-already-exists
