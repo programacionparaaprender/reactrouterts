@@ -1,5 +1,5 @@
 {
-  "homepage": "https://programacionparaaprender.github.io/reactrouterts", 
+  "homepage": "https://programacionparaaprender.github.io/reactrouterts",
   "name": "reactrouterts",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,7 @@
     "react-router": "5.1.2",
     "react-router-dom": "5.1.2",
     "react-scripts": "^3.2.0",
+    "reactrouterts": "file:",
     "reactstrap": "8.1.1",
     "redux": "4.0.4",
     "redux-persist": "^6.0.0",
