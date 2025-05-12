@@ -1,5 +1,5 @@
 {
-  "homepage": "https://programacionparaaprender.github.io/reactrouterts", 
+  "homepage": "https://programacionparaaprender.github.io/reactrouterts",
   "name": "reactrouterts",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +39,7 @@
     "@types/reactstrap": "8.0.6",
     "@typescript-eslint/parser": "^2.5.0",
     "cross-env": "6.0.3",
+    "cypress": "^12.12.0",
     "eslint": "^6.5.1",
     "eslint-plugin-flowtype": "^3.13.0",
     "eslint-plugin-import": "2.18.2",
@@ -53,7 +54,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src/**/*.ts ./src/**/*.tsx",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "e2e": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"

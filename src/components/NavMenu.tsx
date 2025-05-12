@@ -18,22 +18,22 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
                         <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
                             <ul className="navbar-nav flex-grow">
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/"><menu>Home</menu></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/vieja">Vieja</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/vieja"><menu>Vieja</menu></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/googlemaps">Google maps</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/googlemaps"><menu>Google maps</menu></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/counter"><menu>Counter</menu></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/fetch-data"><menu>Fetch data</menu></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/product">Productos</NavLink>
+                                    <NavLink tag={Link} className="text-dark" to="/product"><menu>Productos</menu></NavLink>
                                 </NavItem>
                             </ul>
                         </Collapse>
