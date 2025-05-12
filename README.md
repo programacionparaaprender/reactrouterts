@@ -33,7 +33,9 @@ https://es.reactjs.org/docs/render-props.html#:~:text=El%20t%C3%A9rmino%20%E2%80
 ## react para programadores vuejs
 https://sebastiandedeyne.com/react-for-vue-developers/
 
-corrección en index.d.ts
+### corrección en index.d.ts
+reactrouterts/node_modules/google-maps-react/index.d.ts(27,70):
+
 type mapEventHandler = (mapProps?: IMapProps, map?: google.maps.Map, event?:Function) => any
 type markerEventHandler = (props?: IMarkerProps, marker?: google.maps.Marker, event?:Function) => any
 
